@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:id="@+id/appBarLayout"
+        android:layout_height="140dp"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:fitsSystemWindows="true"
+            android:id="@+id/toolbar_layout"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways|enterAlwaysCollapsed">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="match_parent"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:subtitleTextColor="@color/White"
+                app:titleTextColor="@color/White">
+
+
+                <ImageView
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/title_profile"
+                    android:id="@+id/profileSmallImageView"
+                    android:layout_gravity="end|center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:padding="@dimen/d6dp"
+                    android:src="@drawable/ic_account"
+                    android:visibility="gone" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <ImageView
+                android:contentDescription="@string/title_profile"
+                android:id="@+id/profileBigImageView"
+                android:layout_gravity="bottom|end"
+                android:layout_height="@dimen/big_image_size"
+                android:layout_width="@dimen/big_image_size"
+                android:padding="@dimen/d6dp"
+                android:src="@drawable/ic_account"
+                app:layout_collapseMode="none"
+                app:layout_collapseParallaxMultiplier="0.9" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_profile" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

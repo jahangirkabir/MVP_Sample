@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/normal_padding">
+
+    <RelativeLayout
+            android:id="@+id/rvTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/label_change_profile"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s20sp"
+                tools:ignore="RelativeOverlap" android:layout_marginTop="4dp" android:layout_alignParentTop="true"/>
+
+        <ImageView
+                android:background="@null"
+                android:contentDescription="@string/close"
+                android:id="@+id/closeBtn"
+                android:padding="5dp"
+                android:layout_alignParentEnd="true"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                app:srcCompat="@drawable/ic_close_black_24dp" android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp" android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+            android:layout_below="@+id/rvTitle"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d16dp"
+            android:layout_width="match_parent">
+
+        <TextView
+                android:drawableTop="@drawable/ic_camera"
+                android:gravity="center"
+                android:id="@+id/tv_camera"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:text="@string/label_camera"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s16sp" />
+
+        <TextView
+                android:drawableTop="@drawable/ic_gallery"
+                android:gravity="center"
+                android:id="@+id/tv_gallery"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:text="@string/label_gallery"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s16sp" />
+    </LinearLayout>
+</RelativeLayout>

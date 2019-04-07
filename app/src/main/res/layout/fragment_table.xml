@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/custom_toolbar"
+        android:id="@+id/test_toolbar" />
+
+    <androidx.appcompat.widget.SearchView
+        android:background="@drawable/rounded_border"
+        android:gravity="end"
+        android:id="@+id/searchView"
+        android:layout_below="@id/test_toolbar"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_margin="@dimen/d16dp"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        app:closeIcon="@android:color/transparent"
+        app:iconifiedByDefault="false"
+        app:queryHint="@string/label_search" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fruitRecyclerView"
+        android:layout_below="@+id/searchView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+</RelativeLayout>

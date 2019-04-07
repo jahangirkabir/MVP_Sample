@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+              android:background="@color/whiteSmoke"
+    tools:context=".ui.home.MainActivity">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <RelativeLayout
+        android:background="@drawable/rectangular_colored_border"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/temperatureTextView"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/d16dp"
+                android:text="@string/temperature_display"
+                android:textSize="@dimen/s16sp" android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/temperatureTextView"/>
+
+        <TextView
+                android:id="@+id/temperatureTextView"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/d16dp"
+                android:text="@string/temperature_display"
+                android:textSize="@dimen/s16sp" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@drawable/rectangular_colored_border"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="@dimen/d16dp">
+
+        <TextView
+                android:gravity="start|center_vertical"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/switch_sound"
+                android:layout_width="wrap_content"
+                android:text="@string/sound"
+                android:textSize="@dimen/s16sp" android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/switch_sound"/>
+
+        <Switch
+                android:id="@+id/switch_sound"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_width="match_parent" />
+
+    <RelativeLayout
+        android:background="@drawable/rectangular_colored_border"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="@dimen/d16dp">
+
+
+        <TextView
+                android:gravity="start|center_vertical"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/switch_notification"
+                android:layout_width="wrap_content"
+                android:text="@string/notifications"
+                android:textSize="@dimen/s16sp" android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/switch_notification"/>
+
+        <Switch
+                android:checked="false"
+                android:id="@+id/switch_notification"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@drawable/rectangular_colored_border"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/probationDateTextView"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/d16dp"
+                android:text="@string/probation_date"
+                android:textSize="@dimen/s16sp" android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/probationDateTextView"/>
+
+        <TextView
+                android:id="@+id/probationDateTextView"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/d16dp"
+                android:text="@string/probation_date"
+                android:textSize="@dimen/s16sp" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:background="@drawable/rectangular_colored_border"
+        android:id="@+id/tv_view_details"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="@dimen/d16dp"
+        android:text="@string/view_details"
+        android:textSize="@dimen/s16sp"
+        android:textStyle="bold" />
+</LinearLayout>

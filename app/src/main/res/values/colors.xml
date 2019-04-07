@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF7676</color>
+    <color name="colorPrimaryDark">#BB1515</color>
+    <color name="colorAccent">#3FD847</color>
+
+    <color name="disabled_black">#515151</color>
+
+    <drawable name="completedTaskBackground">#CCCCCC</drawable>
+    <color name="colorOffWhite">#e2e2e2</color>
+    <drawable name="touchFeedback">#CFD8DC</drawable>
+    <color name="DarkGray">#616161</color>
+    <color name="whiteSmoke">#F5F5F5</color>
+    <color name="white">#FFF</color>
+    <color name="White">#ffffff</color>
+    <color name="black">#000</color>
+    <color name="grey">#6E6E6E</color>
+    <color name="transparent">#00000000</color>
+    <color name="sliding_menu_bg">#BF666666</color>
+    <color name="facebook">#3b5999</color>
+    <color name="twitter">#01bbf6</color>
+    <color name="share">#5b9139</color>
+    <color name="list_selector">#BF424242</color>
+    <color name="facebook_pressed">#4a6eba</color>
+    <color name="twitter_pressed">#66ccff</color>
+    <color name="share_pressed">#6cac44</color>
+    <color name="doctor_read">#6E6E6E</color>
+    <color name="colorProgress">#4caf50</color>
+
+    <color name="colorGray900">#393939</color>
+    <color name="colorGray600">#757575</color>
+
+    <color name="colorTarget">#b71c1c</color>
+    <color name="colorSales">#09ea12</color>
+    <color name="colorDeficit">#f41111</color>
+
+    <color name="colorNotSynced">#FFEB3B</color>
+
+    <color name="expandable_item_indicator_color">#42000000</color>
+    <color name="grey_50">#fafafa</color>
+
+    <color name="selected_background_color">#d649f9</color>
+    <color name="unselected_background_color">#1c324a</color>
+    <color name="shadow_background_color">#28415f</color>
+    <color name="unselected_header_background_color">#1f3650</color>
+    <color name="unselected_text_color">#515151</color>
+    <color name="selected_text_color">#ffffff</color>
+    <color name="separator_color">#C5C5C5</color>
+    <color name="dddddd">#dddddd</color>
+</resources>

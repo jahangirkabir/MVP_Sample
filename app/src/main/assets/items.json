@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "title": "In San Francisco",
+      "description": "In San Francisco, Making a Living From Your Billionaire Neighbor’s Trash",
+      "url": "https://static01.nyt.com/images/2019/04/07/us/07trash-p1/00trash-02alt-facebookJumbo.jpg",
+      "favourite": false,
+      "category": "A"
+    },
+    {
+      "title": "I had to approach Labour",
+      "description": "Downing Street says the PM had to hold cross-party talks or risk letting Brexit \"slip through our fingers\".",
+      "url": "https://ichef.bbci.co.uk/news/1024/branded_news/175E1/production/_106331759_compcopy.jpg",
+      "favourite": false,
+      "category": "B"
+    },
+    {
+      "title": "Michelle Mark",
+      "description": "Trump mocks asylum-seekers at the border, says they 'look like they should be fighting for the UFC'",
+      "url": "https://amp.businessinsider.com/images/5ca9632609b6034b4a2b9122-1920-960.jpg",
+      "favourite": true,
+      "category": "A"
+    },
+    {
+      "title": "6 People Shot in Chicago",
+      "description": "Authorities were responding to reports of at least seven people shot Saturday evening",
+      "url": "https://media.necn.com/images/1200*759/englewoodshootinggathering.jpg",
+      "favourite": true,
+      "category": "B"
+    },
+    {
+      "title": "Joel Huerto",
+      "description": "Obama warns progressive lawmakers to avoid a 'circular firing squad' ahead of the 2020 election",
+      "url": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1028x675/format/jpg/quality/85/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-images%2F2019-04%2F4af218e0-58d1-11e9-b376-e327351d5a50",
+      "favourite": false,
+      "category": "B"
+    },
+    {
+      "title": "Ocasio-Cortez and Gianaris lash out",
+      "description": "Ocasio-Cortez and Gianaris lash out at Cuomo, Amazon at joint constituent event",
+      "url": "https://thenypost.files.wordpress.com/2019/04/190406-gianaris-ocasio-cortez.jpg?quality=90&strip=all&w=1200",
+      "favourite": false,
+      "category": "A"
+    },
+    {
+      "title": "Madeline Holcombe and Augie Martin",
+      "description": "Jennifer Hart drove her six children to their deaths as her wife looked up how much they would suffer",
+      "url": "https://cdn.cnn.com/cnnnext/dam/assets/180328212418-hart-family-super-tease.jpg",
+      "favourite": true,
+      "category": "A"
+    },
+    {
+      "title": "Trump tax returns: Lawyer calls Democrats",
+      "description": "Trump tax returns: Lawyer calls Democrats’ demands “a gross abuse of power”",
+      "url": "https://cdn.vox-cdn.com/thumbor/lWnTTTBrOZfafHk4pU3zef6LpDg=/0x392:5472x3257/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16012730/1140593453.jpg.jpg",
+      "favourite": false,
+      "category": "B"
+    },
+    {
+      "title": "FOX",
+      "description": "Family of Timmothy Pitzen was elated, then devastated by hoax",
+      "url": "https://media.fox32chicago.com/media.fox32chicago.com/photo/2019/04/05/timmothy-pitzen-family_1554462806918_7029358_ver1.0_640_360.jpg",
+      "favourite": false,
+      "category": "A"
+    },
+    {
+      "title": "Zachary Cohen, CNN",
+      "description": "Pompeo suggests Mar-a-Lago breach tied to Chinese espionage",
+      "url": "https://cdn.cnn.com/cnnnext/dam/assets/190403195058-mar-a-lago-super-tease.jpg",
+      "favourite": true,
+      "category": "A"
+    },
+    {
+      "title": "Satoshi's TAKE-TWO",
+      "description": "Satoshi's TAKE-TWO: New Blockchain Protocol Poised to Bring Digital Currency to the Masses",
+      "url": "https://mma.prnewswire.com/media/845530/Shakti_Coin_Logo.jpg?p=facebook",
+      "favourite": false,
+      "category": "B"
+    },
+    {
+      "title": "Blockchain and Crypto",
+      "description": "Blockchain and Crypto to Reinforce Tourism & Culture in Italy - Coin Idol",
+      "url": "https://coinidol.com/upload/resize_cache/iblock/c14/900_900_1/c145113bc7c63947b5e067948966440a.png",
+      "favourite": false,
+      "category": "A"
+    },
+    {
+      "title": "Bailey Reutzel",
+      "description": "Even at $30, Bitcoin Was More Exciting Than Poker",
+      "url": "https://bitcoinist.com/wp-content/uploads/2019/02/shutterstock_1256272942.jpg",
+      "favourite": true,
+      "category": "B"
+    }
+  ]
+}

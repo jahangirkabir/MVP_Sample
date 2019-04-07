@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/fragment_profile">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="rafique.mujawar.deskera.fragments.ProfileFragment">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:gravity="center"
+            android:id="@+id/email_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:padding="@dimen/standerd_padding"
+            app:hintEnabled="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/email_text"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:background="@null"
+                android:hint="@string/hint_email"
+                android:id="@+id/emailEditText"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/email_text"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/standerd_padding"
+            android:text="@string/label_email"
+            android:textSize="@dimen/normal_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/hobby_layout"
+            app:layout_constraintEnd_toStartOf="@id/email_layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/email_layout" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:gravity="center"
+            android:id="@+id/hobby_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:padding="@dimen/standerd_padding"
+            app:hintEnabled="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/hobby_text"
+            app:layout_constraintTop_toBottomOf="@id/email_layout">
+
+            <EditText
+                android:background="@null"
+                android:hint="@string/hint_hobby"
+                android:id="@+id/hobbyEditText"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/hobby_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/standerd_padding"
+            android:text="@string/label_hobby"
+            android:textSize="@dimen/normal_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/hobby_layout"
+            app:layout_constraintEnd_toStartOf="@id/hobby_layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hobby_layout" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:gravity="center"
+            android:id="@+id/doj_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:padding="@dimen/standerd_padding"
+            app:hintEnabled="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/doj_text"
+            app:layout_constraintTop_toBottomOf="@id/hobby_layout">
+
+            <EditText
+                    android:background="@null"
+                    android:focusable="false"
+                    android:id="@+id/DOJEditText"
+                    android:imeOptions="actionDone"
+                    android:inputType="textEmailAddress"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:hint="@string/hint_doj"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/doj_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/standerd_padding"
+            android:text="@string/label_doj"
+            android:textSize="@dimen/normal_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/doj_layout"
+            app:layout_constraintEnd_toStartOf="@id/doj_layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/doj_layout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
